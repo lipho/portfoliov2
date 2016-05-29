@@ -121,6 +121,6 @@ $RECYCLE.BIN/
 *.css.map
 
 ### My Stuff
-builds/dev/js/vendor
-builds/dev/css/vendor
+builds/dev/js/vendor/*
+builds/dev/css/vendor/*
 builds/dev/fonts/glyphicons*
