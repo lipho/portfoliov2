@@ -122,5 +122,5 @@ $RECYCLE.BIN/
 
 ### My Stuff
 builds/dev/js/vendor
-builds/dev/css/bootstrap*
+builds/dev/css/vendor
 builds/dev/fonts/glyphicons*
