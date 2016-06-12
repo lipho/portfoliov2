@@ -1,0 +1,103 @@
+/* press-start-2p-regular - latin */
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/press-start-2p-v4-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Press Start 2P'), local('PressStart2P-Regular'),
+    url('../fonts/press-start-2p-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/press-start-2p-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/press-start-2p-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/press-start-2p-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/press-start-2p-v4-latin-regular.svg#PressStart2P') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v15-latin-300.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Light'), local('Roboto-Light'),
+    url('../fonts/roboto-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v15-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'),
+    url('../fonts/roboto-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v15-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-500 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v15-latin-500.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+    url('../fonts/roboto-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v15-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v15-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+    url('../fonts/roboto-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v15-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+body {
+    font-size: 1.4rem;;
+}
+
+#header {
+    margin-top: 50px;
+}
+
+.pixel-head {
+    font-family: "Press Start 2P", "Roboto", "Helvetica", sans-serif;
+    font-size: 6.4rem;
+    color: #03A9F4;
+    text-shadow: 3px 3px #0097A7;
+    text-transform: uppercase;
+    position: relative;
+    transform: translateY(-10%);
+}
+
+#header img {
+    position: relative;
+    max-width: 10%;
+    transform: translateY(-5%)
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.dark-primary-color    { background: #0097A7; }
+.default-primary-color { background: #00BCD4; }
+.light-primary-color   { background: #B2EBF2; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #03A9F4; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }
